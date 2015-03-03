@@ -8,10 +8,12 @@ using namespace std;
 
 class Person;
 
+//Create a list node struct to store next memory location
 struct FreeStore {
 	FreeStore* next;
 };
 
+//Build an interface for all memory managers/
 class IMemoryManager
 {
 public:
